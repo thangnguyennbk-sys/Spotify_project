@@ -89,7 +89,7 @@ Nếu có thêm thời gian, dự án sẽ được mở rộng theo hướng:
     * Áp dụng **Clustering (K-Means)** để gom nhóm Genre tự động dựa trên sự tương đồng thay vì tần suất xuất hiện.
 
 * **Advanced Modeling:**
-    * Thử nghiệm các mô hình Ensemble (Random Forest, XGBoost, Gradient Boosting) để bắt được các mối quan hệ phi tuyến tính mà mô hình hiện tại có thể bỏ sót.
+    * Thử nghiệm các mô hình Ensemble (XGBoost) để bắt được các mối quan hệ phi tuyến tính mà mô hình hiện tại có thể bỏ sót.
 
 ---
 ## 7. How to Run
