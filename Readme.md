@@ -93,6 +93,6 @@ Nếu có thêm thời gian, dự án sẽ được mở rộng theo hướng:
 
 ---
 ## 7. How to Run
-1.  Cài đặt thư viện: `pip install -r requirement.txt`
+1.  Cài đặt thư viện: `pip install -r requirements.txt`
 2.  Đặt file `spotify_dataset.csv` cùng tầng với các file khác.
 3.  Chạy Notebook: `Spotify_project.ipynb`
