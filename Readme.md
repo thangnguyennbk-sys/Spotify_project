@@ -91,6 +91,30 @@ Nếu có thêm thời gian, dự án sẽ được mở rộng theo hướng:
 * **Advanced Modeling:**
     * Thử nghiệm các mô hình Ensemble (XGBoost) để bắt được các mối quan hệ phi tuyến tính mà mô hình hiện tại có thể bỏ sót.
 
+## 5. Cấu trúc thư mục
+
+```text
+SPOTIFY_PROJECT/
+├── data/                                   # Thư mục chứa dữ liệu
+│   ├── processed/                          # Dữ liệu đã qua xử lý
+│   │   ├── fill_missing_values.csv         # Data đã xử lý missing value
+│   │   ├── X_train.csv                     # Tập huấn luyện (Features)
+│   │   ├── X_test.csv                      # Tập kiểm tra (Features)
+│   │   ├── y_train.csv                     # Tập huấn luyện (Target)
+│   │   └── y_test.csv                      # Tập kiểm tra (Target)
+│   └── raw/                                # Dữ liệu thô ban đầu
+│       └── spotify_data_clean.csv          # Dataset gốc
+├── notebooks/                              # Jupyter Notebooks theo quy trình
+│   ├── 1&2 - data_collection_eda.ipynb     # Thu thập & Khám phá dữ liệu (EDA)
+│   ├── 3 - question_formulation.ipynb      # Đặt câu hỏi nghiên cứu
+│   ├── 4.1 - data_preprocessing.ipynb      # Tiền xử lý (Cleaning, Encoding, Split)
+│   ├── 4.2 - modeling.ipynb                # Huấn luyện & Đánh giá mô hình
+│   └── 5 - project_summary.ipynb           # Tổng kết dự án
+├── CSC17104_2025_Final Project.pdf         # Đề bài/Yêu cầu đồ án
+├── Teamplan.pdf                            # Kế hoạch phân công công việc
+├── requirements.txt                        # Danh sách thư viện pip
+└── Readme.md                               # Tài liệu 
+```
 ---
 ## 7. How to Run
 1.  Cài đặt thư viện: `pip install -r requirements.txt`
