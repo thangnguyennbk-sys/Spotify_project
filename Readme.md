@@ -25,7 +25,7 @@
 * **Câu hỏi 1:** Nghệ sĩ có mức độ phổ biến cao (`artist_popularity`) hoặc nhiều người theo dõi (`artist_followers`) hơn có xu hướng phát hành các bài hát có độ phổ biến (`track_popularity`) cao hơn hay không?
 * **câu hỏi 2:**  Xu hướng sáng tác các thể loại âm nhạc (`artist_genres`) thay đổi như thế nào theo thời gian trên Spotify?
 * **Câu hỏi 3:** Chiến lược phát hành nào hiệu quả hơn: Ra mắt bài hát dưới dạng 'Single' hay phát hành trong một 'Album' đầy đủ? Loại hình nào thường mang lại độ phổ biến (Popularity) cao hơn?
-* **Câu hỏi 4:** Dự đoán `track_popularity` bằng mô hình học máy
+* **Câu hỏi 4:** Hiệu quả của các mô hình học máy trong việc dự đoán `track_popularity` là như thế nào?
 ## 4. Methodology & Approach
 
 ### 4.1. Data Exploration 
