@@ -1,7 +1,7 @@
 ## ĐỒ ÁN CUỐI KỲ - CSC17104: LẬP TRÌNH KHOA HỌC DỮ LIỆU
 ### TRƯỜNG ĐẠI HỌC KHOA HỌC TỰ NHIÊN - ĐHQG-HCM
 #### Khoa Công nghệ Thông tin
-
+#### Môn học: Lập trình cho Khoa học dữ liệu
 **Tên đề tài:** Phân tích Xu hướng Âm nhạc Toàn cầu trên Spotify (2009-2025)  
 **Bộ dữ liệu:** Spotify Global Music Dataset 2009-2025
 
@@ -21,7 +21,7 @@
 * **URL:** [https://www.kaggle.com/datasets/wardabilal/spotify-global-music-dataset-20092025](https://www.kaggle.com/datasets/wardabilal/spotify-global-music-dataset-20092025)
 * **Tác giả:** Warda Bilal
 * **Mô tả:** Bộ dữ liệu này bao gồm những bài hát nổi tiếng và kinh điển trên Spotify từ năm 2009 đến 2023 của các ca sĩ nổi tiếng như Taylor Swift, Billie Eilish, Rihanna và nhiều người khác. Nó giúp phân tích những thay đổi dài hạn về phong cách âm nhạc, độ dài bài hát và danh tiếng của nghệ sĩ.
-## 3.Research question list
+## 3. Research question list
 * **Câu hỏi 1:** Nghệ sĩ có mức độ phổ biến cao (`artist_popularity`) hoặc nhiều người theo dõi (`artist_followers`) hơn có xu hướng phát hành các bài hát có độ phổ biến (`track_popularity`) cao hơn hay không?
 * **câu hỏi 2:**  Xu hướng sáng tác các thể loại âm nhạc (`artist_genres`) thay đổi như thế nào theo thời gian trên Spotify?
 * **Câu hỏi 3:** Chiến lược phát hành nào hiệu quả hơn: Ra mắt bài hát dưới dạng 'Single' hay phát hành trong một 'Album' đầy đủ? Loại hình nào thường mang lại độ phổ biến (Popularity) cao hơn?
@@ -46,7 +46,7 @@ Nhóm đã thực hiện phân tích sâu để hiểu cấu trúc dữ liệu:
 
 ---
 
-## 4.3 Key Findings
+### 4.3 Key Findings
 
 Dựa trên quá trình phân tích, nhóm đã rút ra một vài insight quan trọng nhất:
 
@@ -68,7 +68,7 @@ Từ sau năm 2010, số lượng bài hát trên Spotify tăng vọt theo cấp
 
 ---
 
-## 4.4 Khó khăn và thách thức 
+### 4.4 Khó khăn và thách thức 
 
 * **Dataset Limitations:**
     * **Sampling Bias:** Dữ liệu có dấu hiệu lấy mẫu không trọn vẹn (ví dụ: `max(track_number) = 102` trong khi `max(album_total_tracks) = 181`).
@@ -80,7 +80,7 @@ Từ sau năm 2010, số lượng bài hát trên Spotify tăng vọt theo cấp
 * **Solution:** Nhóm đã viết hàm xử lý chuỗi tùy chỉnh (Custom Parser) và thử nghiệm nhiều ngưỡng (Threshold) khác nhau cho việc gộp nhóm 'Other' để tìm ra tỷ lệ cân bằng nhất.
 ---
 
-## 4.5 Hướng đi trong tương lai
+### 4.5 Hướng đi trong tương lai
 
 Nếu có thêm thời gian, dự án sẽ được mở rộng theo hướng:
 
@@ -116,7 +116,7 @@ SPOTIFY_PROJECT/
 └── Readme.md                               # Tài liệu 
 ```
 ---
-## 7. How to Run
+## 6. How to Run
 1.  Cài đặt thư viện: `pip install -r requirements.txt`
 2.  Đặt file `spotify_dataset.csv` cùng tầng với các file khác.
 3.  Chạy Notebook: `Spotify_project.ipynb`
